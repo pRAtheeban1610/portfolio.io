@@ -1,0 +1,428 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.home{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(#74EBD5,#9FACE6);
+    width: 1348px;
+    height: 630px;
+}
+
+.about-me{
+    margin: 0%;
+    padding: 0%;
+    background:linear-gradient(90deg,#8EC5FC,#E0C3FC);
+    width: 1348px;
+    height: 630px;  
+}
+
+#Projects{
+    position: relative;
+    margin: 0%;
+    width: 0;
+    width: 1348px;
+    height: 630px;
+    background:linear-gradient(90deg,#8EC5FC,#E0C3FC);
+}
+
+.navbar{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(360deg,#42EED4,#778CE6);
+    display: flex;
+}
+.navbar .nav-list{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-list .navlists{
+    margin: 100px;
+}
+.navlists a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list a:hover{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: white;
+    
+}
+.contact {
+    display: none;
+    position: absolute;
+    left: 30%;
+    background:linear-gradient(90deg,#8EC5FC,#E0C3FC);
+    width: 500px;
+    height: 300px;
+}
+.contact .gmail{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 50px;
+}
+.contact .gmail:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.contact #close-btn{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 20px 20px;
+}
+.contact #close-btn:hover{
+    border-color: aqua; 
+    color: #00DBDE;   
+}
+.contact h1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: black;
+}
+.contact .whatsapp{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+}
+.contact .whatsapp:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.contact .linkedin{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-size: 50px;  
+}
+.contact .linkedin:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.home-text h1{
+position: absolute;
+top: 40%;
+left: 40%;
+align-items: center;
+justify-content: center;
+width: 400px;
+text-align: justify;    
+}
+
+.home-text h1 #name{
+    font-size: 50px;
+    padding: 2px;
+    margin: 20px;
+    text-shadow: 3px 3px 1px yellow;
+}
+
+.home-icon{
+    position: absolute;
+    top:75%;
+    left:48.5%;
+    font-size: large;
+    color: black;
+    
+}
+.home-icon .down1{
+    animation: load 1.5s infinite;
+}
+.home-icon .down2{
+    animation: load1 1.5s infinite;
+}
+.home-icon .down3{
+    animation: load2 1.5s infinite;
+}
+.home-button{
+    position: absolute;
+    top:85%;
+    left:46%;
+    font-size: large;
+}
+.home-button a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:10px;
+    left: 0px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+.home-button a:hover{
+    background-color: white;
+    border-width: 1px;
+    border-color: #00DBDE;
+}
+@keyframes load{
+    0%{
+        color: black;   
+     }
+     30%{
+        color: #00DBDE;
+        text-shadow: 1px 1px 5px white;
+     }
+     40%{
+        color: black;
+     }
+}
+
+@keyframes load1{
+    0%{
+        color: black;   
+     }
+     30%{
+        color: black;   
+     }
+     50%{
+        color: #00DBDE;
+        text-shadow: 1px 1px 5px white;
+     }
+     60%{
+        color: black;
+     }
+}
+
+@keyframes load2{
+    0%{
+        color: black;   
+     }
+     50%{
+        color: black;   
+     }
+     80%{
+        color: #42EED4;
+        text-shadow: 1px 1px 5px white;
+     }
+     90%{
+        color: black;
+     }
+}
+.about-me-container{
+    position: relative;
+    height: 100%;
+}
+.about-me-container .my-img{
+    position: absolute;
+    top:10%;
+    left:10%;
+    width:300px;
+    border-radius: 600px;
+    background-color: #EEEB78;
+}
+.my-img img{
+    width: 300px;
+    border-radius: 600px;
+}
+.about-me-container h1{
+    position: absolute;
+    top:10%;
+    left: 45%;
+}
+.about-me-container p{
+    position: absolute;
+    top:16%;
+    left: 45%;
+}
+.skills h1{
+    position: absolute;
+    top: 40%;
+}
+#html{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+}
+#html-text{
+    position: absolute;
+    top: 59%;
+    left: 51%;
+    width: 50px;   
+}
+#css{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 46px;
+}
+#css-text{
+    position: absolute;
+    top: 59%;
+    left: 56%;
+}
+#js{
+    position: absolute;
+    top: 49.5%;
+    left: 58%;
+    width: 105px;
+}
+#js-text{
+    position: absolute;
+    top: 59%;
+    left: 59.5%;
+}
+.resume{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    width: 105px;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.resume:hover{
+    border-color: yellow;
+    background-color: white;
+}
+.whatsapp1{
+    position: absolute;
+    top:70%;
+    left: 15%;
+    font-size: 40px;
+}
+.whatsapp1:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.github1{
+    position: absolute;
+    top:70%;
+    left: 25%;
+    font-size: 40px;
+}
+.github1:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.linkedin1{
+    position: absolute;
+    top:70%;
+    left: 20%;
+    font-size: 40px;
+}
+.linkedin1:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.gmail1{
+    position: absolute;
+    top:70%;
+    left: 10%;
+    font-size: 40px;
+}
+.gmail1:hover{
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+.projects-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.projects-container h1{
+    position: absolute;
+    top: 0;
+    left:48%;
+}
+.projects-container .portfolio{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 1px solid white;
+    width: 400px;
+    height: 200px;
+}
+.portfolio:hover{
+ border: 2px solid aqua;
+}
+.portfolio-link{
+  position: absolute;
+    top: 45%;
+    left: 22%;
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}
+.portfolio-link:hover{
+    border: 2px solid aqua;
+}
+#random-quote-generator{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border: 1px solid white;
+    width: 400px;
+    height: 200px;
+}
+#random-quote-generator:hover{
+    border: 2px solid aqua; 
+}
+.quote-generator{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    text-decoration: none;
+    padding: 2px;
+    color: black;   
+}
+.quote-generator:hover{
+    border: 2px solid aqua;
+}
+
+#bmi-calculator{
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    border: 1px solid white;
+    width: 400px;
+    height: 200px;   
+}
+#bmi-calculator:hover{
+    border: 2px solid aqua;   
+}
+.bmi-calculator{
+    position: absolute;
+    top: 92%;
+    left: 22%;
+    text-decoration: none;
+    padding: 2px;
+    color: black;   
+}
+.bmi-calculator:hover{
+    border: 2px solid aqua;
+}
+#to-top{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    font-size: 50px;
+    color: aqua;
+    text-shadow: 0 0 5px blue;
+}
